@@ -1,18 +1,18 @@
 {
   "protocol_version": "1.0.0",
   "bundle_version": "1.1.0",
-  "updated_at": 1596032074371,
-  "sentence_id": 2,
+  "updated_at": 1596033944259,
+  "sentence_id": 13,
   "categories": {
     "path": "./categories.json",
-    "timestamp": 1596032074371
+    "timestamp": 1596033944259
   },
   "sentences": [
     {
       "name": "舔狗",
       "key": "a",
       "path": "./sentences/a.json",
-      "timestamp": 1596032074371
+      "timestamp": 1596033944259
     }
   ]
 }
