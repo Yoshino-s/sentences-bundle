@@ -1,0 +1,16 @@
+{
+  "name": "sentences-bundle",
+  "version": "1.1.0",
+  "private": true,
+  "repository": "git@github.com:Yoshino-s/sentences-bundle.git",
+  "author": "Yoshino-s <yoshino.prog@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "add:sentence": "node scripts/add-sentence.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "uuid": "^8.3.0"
+  }
+}
