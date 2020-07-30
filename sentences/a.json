@@ -754,5 +754,19 @@
     "from_who": null,
     "created_at": 1596080128930,
     "length": 66
+  },
+  {
+    "id": 56,
+    "uuid": "1bc740f2-a0a4-4871-9c58-19f7ba6793c6",
+    "type": "a",
+    "commit_from": "git",
+    "creator": "yoshino-s",
+    "creator_uid": 5281433,
+    "reviewer": 0,
+    "hitokoto": "以前我问你怎样才能跟我处对象，你说除非厄加特变成魔法少女，我以为这辈子没机会了，直到今天我才明白，原来你是爱我的",
+    "from": "",
+    "from_who": "",
+    "created_at": 1596085081854,
+    "length": 56
   }
 ]
