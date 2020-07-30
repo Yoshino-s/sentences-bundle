@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - "data/data.json"
+  pull_request:
+    branches: [ master ]
+    paths:
+      - "data/data.json"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bahmutov/npm-install@v1
+    - name: add
+      run: yarn run add:data
+    - name: reset
+      if: github.ref == 'refs/heads/master'
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@yoshino-s.noreply.github.com"
+        git reset --soft HEAD^
+        rm data/data.json
+        git add -A
+        git commit -m "add data"
+        git push
+    
