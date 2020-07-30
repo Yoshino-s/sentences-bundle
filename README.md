@@ -14,7 +14,7 @@ npm install
 # yarn
 ```
 
-然后运行，按照提示输入。（只有hitokoto是必须的
+然后运行，按照提示输入。（只有hitokoto是必须的 (这种方法不是很推荐，因为可能会有id冲突
 
 ```bash
 npm run add:sentence
