@@ -768,5 +768,19 @@
     "from_who": "",
     "created_at": 1596085081854,
     "length": 56
+  },
+  {
+    "id": 57,
+    "uuid": "ba504070-9d21-4b1a-9ccb-5c7e64c2640f",
+    "type": "a",
+    "commit_from": "git",
+    "creator": "test_account",
+    "creator_uid": 3026480,
+    "reviewer": 0,
+    "hitokoto": "你就像楼下没开门的理发店一样冷漠，它不理发，你不理我。",
+    "from": "",
+    "from_who": "",
+    "created_at": 1596088006676,
+    "length": 27
   }
 ]
