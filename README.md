@@ -6,6 +6,30 @@
 
 参考： <https://sentences-bundle.hitokoto.cn>
 
+## 如何快速添加语料
+
+首先fork这个repo，然后clone到本地，确保你的环境中必须有nodejs
+
+然后运行如下命令
+
+```bash
+npm install
+# or 
+# yarn
+```
+
+然后运行，按照提示输入。（只有hitokoto是必须的
+
+```bash
+npm run add:sentence
+# or
+# yarn run add:sentence
+```
+
+添加完后提交，并发pr，我看到了就会合并。
+
+其他功能之后会添加滴。（咕咕咕
+
 ## 使用须知
 
 1. 本库遵循 AGPL 开源授权，您在使用本库时需要遵循 AGPL 授权的相关规定。这通常意味着：您在使用、分发、修改、扩充等涉及本库的操作时您需要开源您的修改作品。
