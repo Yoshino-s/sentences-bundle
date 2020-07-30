@@ -1,0 +1,26 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.x]
+    steps:
+    - uses: actions/checkout@v2
+    - uses: bahmutov/npm-install@v1
+    - name: add
+      run: yarn run add:data
+    - name: reset
+      run: |
+        rm data/data.json
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@yoshino-s.noreply.github.com"
+        git add -A
+        git commit -m "add data"
+        git push
+    

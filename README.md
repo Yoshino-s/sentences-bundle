@@ -22,6 +22,8 @@ npm run add:sentence
 # yarn run add:sentence
 ```
 
+或者按照`data/data.example.json`在`data/data.json`中写入数据，直接交pr
+
 添加完后提交，并发pr，我看到了就会合并。
 
 其他功能之后会添加滴。（咕咕咕

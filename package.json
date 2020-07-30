@@ -6,7 +6,8 @@
   "author": "Yoshino-s <yoshino.prog@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "add:sentence": "node scripts/add-sentence.js"
+    "add:sentence": "node scripts/add-sentence.js",
+    "add:data": "node scripts/add-data.js"
   },
   "dependencies": {
     "chalk": "^4.1.0",
