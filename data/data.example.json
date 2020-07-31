@@ -7,5 +7,12 @@
       "from": "",
       "from_who": ""
     }
+  ],
+  "categories": [
+    {
+      "key": "b",
+      "name": "category_name",
+      "desc": "description"
+    }
   ]
 }

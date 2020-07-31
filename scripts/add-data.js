@@ -1,8 +1,8 @@
 const fs = require("fs");
 const uuid = require("uuid");
 const chalk = require("chalk");
-const inquirer = require("inquirer");
 const version = require("../version.json");
+const package = require("../package.json");
 const categories = require("../categories.json");
 const data = require("../data/data.json")
 const path = require("path");
@@ -10,12 +10,35 @@ const crypto = require("crypto");
 
 const creator = data.creator || "anonymous";
 const creator_uid = parseInt(crypto.createHash("md5").update(creator).digest("hex").slice(0, 6), 16);
+const date = Date.now();
 
 function dump(p, obj) {
   fs.writeFileSync(path.join(__dirname, p), JSON.stringify(obj, undefined, 2));
 }
 
-async function addSentence(obj) {
+function addCategory(obj) {
+  const key = obj.key;
+  if (categories.find(c => c.key === key)) {
+    throw Error(`Duplicated Key of new Category ${obj.name}`);
+  }
+
+  version.sentences.push({
+    name: obj.name,
+    key: obj.key,
+    path: `./sentences/${key}.json`,
+    timestamp: date,
+  });
+  categories.push({
+    id: categories.length + 1,
+    name: obj.name,
+    desc: obj.desc,
+    created_at: new Date(date).toISOString(),
+    updated_at: new Date(date).toISOString(),
+    path: `./sentences/${key}.json`,
+  })
+}
+
+function addSentence(obj) {
   const category = obj.type;
   const item = {
     id: version.sentence_id++,
@@ -27,9 +50,6 @@ async function addSentence(obj) {
     reviewer: 0,
     ...obj
   };
-
-  const date = Date.now();
-
   item.created_at = date;
   item.length = obj.hitokoto.length;
   let cat;
@@ -40,19 +60,22 @@ async function addSentence(obj) {
   }
   cat.push(item);
   dump(`../sentences/${category}.json`, cat);
-  version.updated_at = date;
-  version.categories.timestamp = date;
   version.sentences.find(i => i.key === category).timestamp = date;
-  dump("../version.json", version);
   categories.find(i => i.key === category).updated_at = (new Date(date)).toISOString();
-  dump("../categories.json", categories);
   console.log(chalk.green(`Success add ${obj.hitokoto}`));
 }
 
-async function main() {
-  for (let i of data.sentences) {
-    await addSentence(i);
+function main() {
+  for (let i of (data.categories || [])) {
+    addCategory(i);
   }
+  for (let i of (data.sentences || [])) {
+    addSentence(i);
+  }
+  version.updated_at = date;
+  version.categories.timestamp = date;
+  dump("../version.json", version);
+  dump("../categories.json", categories);
 }
 
 main();
