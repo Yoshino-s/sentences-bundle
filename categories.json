@@ -5,7 +5,7 @@
     "desc": "Sucker - 舔狗",
     "key": "a",
     "created_at": "2020-07-29T13:39:05.988Z",
-    "updated_at": "2020-07-30T05:46:46.676Z",
+    "updated_at": "2020-08-02T09:31:09.448Z",
     "path": "./sentences/a.json"
   },
   {
@@ -14,6 +14,14 @@
     "desc": "病娇",
     "created_at": "2020-07-31T02:31:30.750Z",
     "updated_at": "2020-07-31T02:31:30.750Z",
+    "path": "./sentences/b.json"
+  },
+  {
+    "id": 3,
+    "name": "category_name",
+    "desc": "description",
+    "created_at": "2020-08-02T09:31:09.448Z",
+    "updated_at": "2020-08-02T09:31:09.448Z",
     "path": "./sentences/b.json"
   }
 ]
