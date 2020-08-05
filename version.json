@@ -1,18 +1,18 @@
 {
   "protocol_version": "1.0.0",
   "bundle_version": "1.2.0",
-  "updated_at": 1596360669448,
-  "sentence_id": 130,
+  "updated_at": 1596611322999,
+  "sentence_id": 192,
   "categories": {
     "path": "./categories.json",
-    "timestamp": 1596360669448
+    "timestamp": 1596611322999
   },
   "sentences": [
     {
       "name": "舔狗",
       "key": "a",
       "path": "./sentences/a.json",
-      "timestamp": 1596360669448
+      "timestamp": 1596611322999
     },
     {
       "name": "病娇",
@@ -25,6 +25,12 @@
       "key": "b",
       "path": "./sentences/b.json",
       "timestamp": 1596360669448
+    },
+    {
+      "name": "category_name",
+      "key": "b",
+      "path": "./sentences/b.json",
+      "timestamp": 1596611322999
     }
   ]
 }
