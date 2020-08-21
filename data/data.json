@@ -1,0 +1,36 @@
+{
+  "creator": "your_name",
+  "sentences": [
+    {
+      "type": "c",
+      "hitokoto": "在CTF的世界里，Web🐕怎么存活？开玩笑，怎么可能活？",
+      "from": "",
+      "from_who": ""
+    },
+    {
+      "type": "c",
+      "hitokoto": "在？Webpwn会pwn吗？不会还不去学习！懒狗",
+      "from": "",
+      "from_who": ""
+    },
+    {
+      "type": "c",
+      "hitokoto": "在？今天BUU刷题了吗？懒狗",
+      "from": "",
+      "from_who": ""
+    },
+    {
+      "type": "c",
+      "hitokoto": "听说打CTF的都会找到npy呢",
+      "from": "",
+      "from_who": ""
+    }
+  ],
+  "categories": [
+    {
+      "key": "c",
+      "name": "ctf",
+      "desc": "ctf"
+    }
+  ]
+}

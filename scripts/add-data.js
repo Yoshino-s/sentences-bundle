@@ -32,10 +32,12 @@ function addCategory(obj) {
     id: categories.length + 1,
     name: obj.name,
     desc: obj.desc,
+    key: obj.key,
     created_at: new Date(date).toISOString(),
     updated_at: new Date(date).toISOString(),
     path: `./sentences/${key}.json`,
-  })
+  });
+  dump(`../sentences/${key}.json`, []);
 }
 
 function addSentence(obj) {
