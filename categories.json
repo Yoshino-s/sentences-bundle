@@ -7,14 +7,5 @@
     "created_at": "2020-07-29T13:39:05.988Z",
     "updated_at": "2020-08-05T07:08:42.999Z",
     "path": "./sentences/a.json"
-  },
-  {
-    "id": 2,
-    "name": "病娇",
-    "desc": "病娇",
-    "key": "b",
-    "created_at": "2020-07-31T02:31:30.750Z",
-    "updated_at": "2020-07-31T02:31:30.750Z",
-    "path": "./sentences/b.json"
   }
 ]
