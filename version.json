@@ -1,11 +1,11 @@
 {
   "protocol_version": "1.0.0",
   "bundle_version": "1.2.0",
-  "updated_at": 1598016549509,
-  "sentence_id": 197,
+  "updated_at": 1598017164891,
+  "sentence_id": 202,
   "categories": {
     "path": "./categories.json",
-    "timestamp": 1598016549509
+    "timestamp": 1598017164891
   },
   "sentences": [
     {
@@ -18,7 +18,7 @@
       "name": "ctf",
       "key": "c",
       "path": "./sentences/c.json",
-      "timestamp": 1598016549509
+      "timestamp": 1598017164891
     }
   ]
 }
