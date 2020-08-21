@@ -7,5 +7,14 @@
     "created_at": "2020-07-29T13:39:05.988Z",
     "updated_at": "2020-08-05T07:08:42.999Z",
     "path": "./sentences/a.json"
+  },
+  {
+    "id": 2,
+    "name": "ctf",
+    "desc": "ctf",
+    "key": "c",
+    "created_at": "2020-08-21T13:29:09.509Z",
+    "updated_at": "2020-08-21T13:29:09.509Z",
+    "path": "./sentences/c.json"
   }
 ]
