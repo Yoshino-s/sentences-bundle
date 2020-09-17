@@ -1,0 +1,28 @@
+{
+  "creator": "your_name",
+  "sentences": [
+    {
+      "type": "c",
+      "hitokoto": "今天，你刷题了吗",
+      "from": "",
+      "from_who": ""
+    },{
+      "type": "c",
+      "hitokoto": "线上比赛打不过，线下比赛进不了，惨惨",
+      "from": "",
+      "from_who": ""
+    },{
+      "type": "c",
+      "hitokoto": "Yusa，yyds",
+      "from": "",
+      "from_who": ""
+    },{
+      "type": "c",
+      "hitokoto": "呐呐呐，不会有人不刷题就来水群吧，不会吧不会吧。",
+      "from": "",
+      "from_who": ""
+    }
+  ],
+  "categories": [
+  ]
+}
