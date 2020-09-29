@@ -1,11 +1,11 @@
 {
   "protocol_version": "1.0.0",
   "bundle_version": "1.2.0",
-  "updated_at": 1601364884961,
-  "sentence_id": 224,
+  "updated_at": 1601366343641,
+  "sentence_id": 240,
   "categories": {
     "path": "./categories.json",
-    "timestamp": 1601364884961
+    "timestamp": 1601366343641
   },
   "sentences": [
     {
@@ -24,7 +24,7 @@
       "name": "ylb_nb",
       "key": "y",
       "path": "./sentences/y.json",
-      "timestamp": 1601364884961
+      "timestamp": 1601366343641
     }
   ]
 }
