@@ -16,5 +16,14 @@
     "created_at": "2020-08-21T13:29:09.509Z",
     "updated_at": "2020-09-29T07:19:05.055Z",
     "path": "./sentences/c.json"
+  },
+  {
+    "id": 3,
+    "name": "ylb_nb",
+    "desc": "ylb_nb",
+    "key": "y",
+    "created_at": "2020-09-29T07:34:44.961Z",
+    "updated_at": "2020-09-29T07:34:44.961Z",
+    "path": "./sentences/y.json"
   }
 ]
