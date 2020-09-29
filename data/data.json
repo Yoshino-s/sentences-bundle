@@ -1,0 +1,120 @@
+{
+  "creator": "your_name",
+  "sentences": [
+    {
+      "type": "y",
+      "hitokoto": "打CTF快两年了，大大小小比赛线下也去了不少，唯一的遗憾就是没有参加一场ylb的比赛",
+      "from": "zhihu",
+      "from_who": "yds"
+    },
+    {
+      "type": "y",
+      "hitokoto": "某赛竞标会议上，主持人突然说：请下面认为AWD+赛制好的同志坐到会场的左边，认为AWD原版赛制好的同志坐到会场右边。大部分人坐到了左边，少数人坐到右边，只有易霖博坐在中间不动。主持人：那位同志，你到底认为plus好还是原版好易霖博：我认为原版好，但选手交flag频率得和plus一样主持人慌忙说：那请您赶快坐到主席台上来",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "学生出的题，不行。ylb的题，行！",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "每日一问：ylb倒闭了吗?",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "我是谁，我在哪里，谁打了我",
+      "from": "zhihu",
+      "from_who": "2-st"
+    },
+    {
+      "type": "y",
+      "hitokoto": "老师，我网络出问题了。\n不想打就赶紧出去",
+      "from": "zhihu",
+      "from_who": "惊蛰"
+    },
+    {
+      "type": "y",
+      "hitokoto": "你可能不知道手握一把exp，网络隔离只把你隔离了，别人能攻击你，而你只能挨打是一种什么样的体验。",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "请不要再给ylb压力了",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "不会到时候是阴间平台和选手的ad吧？不会吧不会吧？",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "不管平台怎么样，只是觉得鼓掌起哄的的人没有一点大学生的素质",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "易霖博牛逼",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "ylb 我们只是义务承办比赛 我们只想提高一下业界知名度",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "每个人都不能保证自己是完美的，一次都不犯错。但目前还没有哪家公司能比贵公司每场都烂吧",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "怪不得要安检",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "有人在知乎说自己打了一场垃圾的比赛，被ylb举报，他说：我并没有说是谁办的啊，凭什么举报我？ylb怒吼：你少装蒜，我干了这么久了谁的平台垃圾我不知道么？",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "ylb在做关于awd平台的报告：我们的平台非常稳定。\n大厅里有人说：“我刚打完比赛，半天就崩了”。\n演讲者没有回答，继续说：“我们的平台很有特色”\n大厅里有人说： “验证码哪里是特色？\n演讲人：“同志们，你们最好少东游西逛的，要多看一些文章！比如ylb产品手册！”",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "一awd产品开发行道散步，不慎落入道旁河中，高呼救命！两选手闻之，视若不见，仍边走边谈笑如故。产品经理情急生智，遂高呼“我们将在提交flag时加入验证码”！两选手闻之大惊，急跳入河中，将产品拖上岸来铐之。",
+      "from": "zhihu",
+      "from_who": ""
+    },
+    {
+      "type": "y",
+      "hitokoto": "我们队伍已经打了两天awd了。\n哇，那你们一定拿了很多分喽？\n没有，我们还在研究怎么正确输入验证码.",
+      "from": "zhihu",
+      "from_who": ""
+    }
+  ],
+  "categories": [
+    {
+      "key": "y",
+      "name": "ylb_nb",
+      "desc": "ylb_nb"
+    }
+  ]
+}
